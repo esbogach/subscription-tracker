@@ -5,7 +5,7 @@ services:
 
   postgres:
     image: postgres:16
-    container_name: subscription-tracker-postgres
+    container_name: postgres_16
     ports:
       - "5432:5432"
     environment:
@@ -20,5 +20,5 @@ services:
       dockerfile: Dockerfile
     container_name: subscription-tracker-app
     ports:
-      - "8090:8080"
+      - "8091:8080"
 
