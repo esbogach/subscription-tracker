@@ -1,0 +1,4 @@
+include:
+  - project: devops/gitlab-ci-cd
+    ref: main
+    file: .gitlab-java-app.yml
