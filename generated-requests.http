@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "4444",
+  "email": "44444"
+}
+
+###
+GET http://localhost:8080/users/8
+
+###
+PATCH http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "id": 8,
+  "name": "8888",
+  "email": "8888888"
+}
+
+###
+DELETE http://localhost:8080/users/8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost:8080/subscriptions
+Content-Type: application/json
+
+{
+  "userId": 7,
+  "serviceName": "254",
+  "price": 0
+}
+
+###
+GET http://localhost:8080/subscriptions/7
+
+###
+DELETE http://localhost:8080/subscriptions/10
+
+###
+GET http://localhost:8080/subscriptions/top3
+
+
+
+
+
+
+
+
